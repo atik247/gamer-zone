@@ -6,6 +6,10 @@ body {
 }
 
 /* nav started here */
+
+.nav-container{
+    align-items: center;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -28,7 +32,8 @@ nav {
     font-style: normal;
     font-weight: 700;
 }
-.nav-color-letter{
+
+.nav-color-letter {
     color: #FF42A5;
 }
 
@@ -42,5 +47,11 @@ nav {
 .follow-section {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
+    width: 262px;
+    height: 56px;
+    margin-left: 70px
+}
+.nav-right{
+    align-items: ;
 }
