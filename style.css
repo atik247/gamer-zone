@@ -148,3 +148,41 @@ nav {
 #img-3{
     
 }
+/* .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: opacity 0.4s ease-in-out;
+    cursor: pointer;
+} */
+
+.content:hover{
+    opacity: 1;
+    background: grey;
+}
+.content{
+    align-items: center;
+    background: grey;
+    font-size: 20px;
+}
+
+.footer-container{
+    background: #0B0223;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-color-letter {
+    color: #FF42A5;
+}
