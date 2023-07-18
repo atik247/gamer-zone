@@ -14,6 +14,22 @@ nav {
 
 .nav {
     display: flex;
+    align-items: center;
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+    gap: 18px;
+}
+
+.nav-title {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+.nav-color-letter{
+    color: #FF42A5;
 }
 
 .menu-items {
@@ -21,4 +37,10 @@ nav {
     align-items: center;
     list-style: none;
     gap: 20px;
+}
+
+.follow-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
