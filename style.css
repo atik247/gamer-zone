@@ -1,13 +1,22 @@
+/* shared styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
 /* nav started here */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
 }
-.nav{
+
+.nav {
     display: flex;
 }
-.menu-items{
+
+.menu-items {
     display: flex;
     align-items: center;
     list-style: none;
