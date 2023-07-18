@@ -1,0 +1,13 @@
+/* nav started here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.nav{
+    display: flex;
+}
+.menu-items{
+    display: flex;
+    
+}
