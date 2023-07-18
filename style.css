@@ -97,9 +97,6 @@ nav {
     align-items: flex-start;
     border-radius: 48px;
     background: #FF42A5
-
-
-
 }
 
 
@@ -114,12 +111,40 @@ nav {
     border-radius: 48px;
     background: #4EC5F7;
 }
-.img-container{
+
+.section-text {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#section-title-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.img-container {
     display: flex;
     justify-content: space-between;
     padding: 100px 100px;
 
 }
-.img-description{
+
+.img-description {
     width: 300px;
+}
+#img-3{
+    
 }
