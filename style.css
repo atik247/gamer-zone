@@ -178,7 +178,44 @@ nav {
 
 /* Action section started here */
 
+.game-action-section{
+    display: flex;
+    justify-content: center;
+}
+
 .action-one{
+    display: flex;
+    gap: 20px;
+}
+.action-two{
+    display: flex;
+    gap: 20px;
+}
+.action-three{
+    display: flex;
+    gap: 20px;
+}
+.action-four{
+    display: flex;
+    gap: 20px;
+}
+.action-five{
+    display: flex;
+    gap: 20px;
+}
+.action-six{
+    display: flex;
+    gap: 20px;
+}
+.action-seven{
+    display: flex;
+    gap: 20px;
+}
+.action-eight{
+    display: flex;
+    gap: 20px;
+}
+.action-nine{
     display: flex;
     gap: 20px;
 }
