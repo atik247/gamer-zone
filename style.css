@@ -176,6 +176,13 @@ nav {
     font-size: 20px;
 }
 
+/* Action section started here */
+
+.action-one{
+    display: flex;
+    gap: 20px;
+}
+
 /* footer started here */
 
 .footer-container {
