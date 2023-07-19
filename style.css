@@ -165,15 +165,19 @@ nav {
     cursor: pointer;
 } */
 
-.content:hover {
-    opacity: 1;
-    background: grey;
+/* features section started here */
+
+.Features-container{
+    display: flex;
+    justify-content: space-around;
 }
 
-.content {
-    align-items: center;
-    background: grey;
-    font-size: 20px;
+.Features-left{
+    max-width: 500px;
+}
+
+.overflow{
+    overflow: block;
 }
 
 /* Action section started here */
