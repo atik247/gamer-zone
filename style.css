@@ -178,9 +178,15 @@ nav {
 
 /* Action section started here */
 
+.game-section{
+    padding: 100px;
+}
+
 .game-action-section{
     display: flex;
     justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
 }
 
 .action-one{
