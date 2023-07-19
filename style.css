@@ -153,8 +153,6 @@ nav {
     width: 300px;
 }
 
-#img-3 {}
-
 /* .overlay{
     position: absolute;
     top: 0;
@@ -175,9 +173,19 @@ nav {
 .Features-left{
     max-width: 500px;
 }
+.Features-right{
+    
+}
+.big-image{
+    position: relative;
+    
+}
+.overflow-image{
+    margin-top: -260px;
+    margin-left: -140px;
+    position: relative ;
+    
 
-.overflow{
-    overflow: block;
 }
 
 /* Action section started here */
@@ -452,5 +460,16 @@ nav {
         flex-direction: column;
         padding: 50px 50px;
     }
+
+
+    .Features-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .Features-left{
+        max-width: 500px;
+    }
+    
 
 }
