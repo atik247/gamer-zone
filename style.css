@@ -410,6 +410,47 @@ nav {
         color: white;
         text-align: center;
     }
-    
+}
+
+/* Tablet or medium device responsive */
+
+@media screen and (min-width: 576px) and (max-width: 960px ) {
+    .nav-container {
+        align-items: center;
+    }
+    nav{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .menu-items{
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .follow-section {
+        gap: 15px;
+        width: 262px;
+        height: 56px;
+        margin-left: 70px
+    }
+    .banner-container{
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    .banner-left{
+        margin-top: 100px;
+        padding-top: 50px;
+        flex-direction: column;
+    }
+    .banner-right{
+        align-items: center;
+        margin-top: 70px;
+        padding: 50px;
+        flex-direction: column;
+    }
+    .img-container {
+        flex-direction: column;
+        padding: 50px 50px;
+    }
 
 }
