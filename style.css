@@ -297,3 +297,32 @@ nav {
     color: white;
     text-align: center;
 }
+
+/* Responsive styles */
+
+@media screen and (max-width: 576px) {
+    .nav-container {
+        align-items: center;
+    }
+    nav{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .menu-items{
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .follow-section {
+        gap: 15px;
+        width: 262px;
+        height: 56px;
+        margin-left: 70px
+    }
+    .banner-container{
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    
+
+}
