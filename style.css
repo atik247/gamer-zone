@@ -43,6 +43,7 @@ nav {
 .menu-items {
     display: flex;
     align-items: center;
+    font-size: 18px;
     list-style: none;
     gap: 20px;
 }
@@ -58,6 +59,12 @@ nav {
 
 .nav-right {
     align-items: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.follow-section li {
+    font-size: 16px;
 }
 
 .banner-container {
@@ -145,9 +152,9 @@ nav {
 .img-description {
     width: 300px;
 }
-#img-3{
-    
-}
+
+#img-3 {}
+
 /* .overlay{
     position: absolute;
     top: 0;
@@ -158,31 +165,61 @@ nav {
     cursor: pointer;
 } */
 
-.content:hover{
+.content:hover {
     opacity: 1;
     background: grey;
 }
-.content{
+
+.content {
     align-items: center;
     background: grey;
     font-size: 20px;
 }
 
-.footer-container{
-    background: #0B0223;
+/* footer started here */
+
+.footer-container {
+    background: black;
+    align-items: center;
+
 }
-.footer{
+
+.logo-container {
     display: flex;
     align-items: center;
+    padding-top: 100px;
+    justify-content: center;
     gap: 20px;
 }
 
-.footer-title {
+.logo-container h3 {
+    color: white;
     text-align: center;
     font-size: 45px;
+    font-style: normal;
     font-weight: 700;
 }
 
 .footer-color-letter {
     color: #FF42A5;
+}
+
+.footer-menu {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.social-icons{
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
