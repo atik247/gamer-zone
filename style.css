@@ -143,9 +143,12 @@ nav {
 }
 
 .img-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
     padding: 100px 100px;
+    gap: 20px;
+
 
 }
 
@@ -165,76 +168,85 @@ nav {
 
 /* features section started here */
 
-.Features-container{
+.Features-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.Features-left{
+.Features-left {
     max-width: 500px;
 }
-.Features-right{
-    
-}
-.big-image{
+
+.Features-right {}
+
+.big-image {
     position: relative;
-    
+
 }
-.overflow-image{
+
+.overflow-image {
     margin-top: -260px;
     margin-left: -140px;
-    position: relative ;
-    
+    position: relative;
+
 
 }
 
 /* Action section started here */
 
-.game-section{
+.game-section {
     padding: 100px;
 }
 
-.game-action-section{
+.game-action-section {
     display: flex;
     justify-content: center;
     gap: 50px;
     margin-top: 20px;
 }
 
-.action-one{
+.action-one {
     display: flex;
     gap: 20px;
 }
-.action-two{
+
+.action-two {
     display: flex;
     gap: 20px;
 }
-.action-three{
+
+.action-three {
     display: flex;
     gap: 20px;
 }
-.action-four{
+
+.action-four {
     display: flex;
     gap: 20px;
 }
-.action-five{
+
+.action-five {
     display: flex;
     gap: 20px;
 }
-.action-six{
+
+.action-six {
     display: flex;
     gap: 20px;
 }
-.action-seven{
+
+.action-seven {
     display: flex;
     gap: 20px;
 }
-.action-eight{
+
+.action-eight {
     display: flex;
     gap: 20px;
 }
-.action-nine{
+
+.action-nine {
     display: flex;
     gap: 20px;
 }
@@ -281,27 +293,28 @@ nav {
     font-weight: 600;
 }
 
-.footer-social-icons{
+.footer-social-icons {
     text-align: center;
     font-size: 40px;
     justify-content: center;
     gap: 20px;
 }
 
-.secondary-footer-menu{
+.secondary-footer-menu {
     color: white;
     list-style: none;
     text-decoration: none;
     display: flex;
     gap: 30px;
     justify-content: center;
-    
+
     color: #FFF;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
 }
-.copyright{
+
+.copyright {
     padding-bottom: 50px;
     color: white;
     text-align: center;
@@ -313,53 +326,65 @@ nav {
     .nav-container {
         align-items: center;
     }
-    nav{
+
+    nav {
         flex-direction: column;
         padding: 10px;
     }
-    .menu-items{
+
+    .menu-items {
         flex-direction: column;
         gap: 10px;
 
     }
+
     .follow-section {
         gap: 15px;
         width: 262px;
         height: 56px;
         margin-left: 70px
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column;
         padding: 50px 20px;
     }
-    .banner-left{
+
+    .banner-left {
         margin-top: 100px;
         padding-top: 50px;
         flex-direction: column;
     }
-    .banner-right{
+
+    .banner-right {
         align-items: center;
         margin-top: 70px;
         padding: 50px;
         flex-direction: column;
     }
+
     .img-container {
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
         padding: 50px 50px;
     }
-    .Features-container{
+
+    .Features-container {
         flex-direction: column;
         justify-content: space-around;
+        padding-left: 50px;
+    
     }
-    .game-section{
+
+    .game-section {
         padding: 50px;
     }
-    
-    .game-action-section{
+
+    .game-action-section {
         flex-direction: column;
         gap: 50px;
         margin-top: 20px;
     }
+
     .logo-container {
         flex-direction: column;
         align-items: center;
@@ -367,7 +392,7 @@ nav {
         justify-content: center;
         gap: 20px;
     }
-    
+
     .logo-container h3 {
         color: white;
         text-align: center;
@@ -375,11 +400,11 @@ nav {
         font-style: normal;
         font-weight: 700;
     }
-    
+
     .footer-color-letter {
         color: #FF42A5;
     }
-    
+
     .footer-menu {
         color: white;
         list-style: none;
@@ -393,28 +418,29 @@ nav {
         font-size: 18px;
         font-weight: 600;
     }
-    
-    .footer-social-icons{
+
+    .footer-social-icons {
         text-align: center;
         font-size: 40px;
         justify-content: center;
         gap: 20px;
     }
-    
-    .secondary-footer-menu{
+
+    .secondary-footer-menu {
         color: white;
         list-style: none;
         text-decoration: none;
         display: flex;
         gap: 30px;
         justify-content: center;
-        
+
         color: #FFF;
         text-align: center;
         font-size: 16px;
         font-weight: 500;
     }
-    .copyright{
+
+    .copyright {
         padding-bottom: 50px;
         color: white;
         text-align: center;
@@ -423,54 +449,69 @@ nav {
 
 /* Tablet or medium device responsive */
 
-@media screen and (min-width: 576px) and (max-width: 960px ) {
+@media screen and (min-width: 576px) and (max-width: 960px) {
     .nav-container {
         align-items: center;
     }
-    nav{
+
+    nav {
         flex-direction: column;
         padding: 10px;
     }
-    .menu-items{
+
+    .menu-items {
         flex-direction: column;
         gap: 10px;
 
     }
+
     .follow-section {
         gap: 15px;
         width: 262px;
         height: 56px;
         margin-left: 70px
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column;
         padding: 50px 20px;
     }
-    .banner-left{
+
+    .banner-left {
         margin-top: 100px;
         padding-top: 50px;
         flex-direction: column;
     }
-    .banner-right{
+
+    .banner-right {
         align-items: center;
         margin-top: 70px;
         padding: 50px;
         flex-direction: column;
     }
+
     .img-container {
-        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
         padding: 50px 50px;
     }
 
 
-    .Features-container{
+    .Features-container {
         flex-direction: column;
         padding: 20px;
+        gap: 50px;
     }
-    
-    .Features-left{
-        max-width: 500px;
+
+    .Features-left {
+        max-width: 300px;
     }
-    
+
+    .Features-right{
+        padding: 100px;
+    }
+    .game-section{
+        padding: 0 100px;
+        width: auto;
+    }
 
 }
